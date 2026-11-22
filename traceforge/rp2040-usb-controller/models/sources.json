@@ -1,0 +1,104 @@
+{
+  "library": "KiCad 3D model libraries",
+  "tag": "10.0.5",
+  "models": [
+    {
+      "path": "Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_CK_KMR2.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_CK_KMR2.step",
+      "available": true,
+      "bytes": 115207,
+      "sha256": "3bc8d332afe2964b582d8caddfabf0912a948d62325ecb4300adcefa2eadc874"
+    },
+    {
+      "path": "Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "available": true,
+      "bytes": 43450,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    {
+      "path": "Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "available": true,
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "path": "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step",
+      "available": true,
+      "bytes": 145684,
+      "sha256": "a74079b8d06bda78847623b39ee1855ffd1d9a8c1e896b349e4f1dc2056d44d9"
+    },
+    {
+      "path": "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step",
+      "available": true,
+      "bytes": 180757,
+      "sha256": "f03b716e453f6d4f2a111a227c671d96f92708e72a5a663cd4889296d021f4c3"
+    },
+    {
+      "path": "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step",
+      "available": true,
+      "bytes": 286283,
+      "sha256": "081e2b47a2d73a4502efc64d77b9002c9a28047b5776a46043c3d9ca37bac9e1"
+    },
+    {
+      "path": "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.step",
+      "available": true,
+      "bytes": 356629,
+      "sha256": "a2f7a9c513c3be0cbd5de8cdd22fdbf1c2e3510c72d682fd089d252fe71b9dc7"
+    },
+    {
+      "path": "Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.step",
+      "available": true,
+      "bytes": 804970,
+      "sha256": "82235f7275d07f720e3c050f781397f4bef47fdc7e15dd507d68ccba861f1a35"
+    },
+    {
+      "path": "Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step",
+      "available": true,
+      "bytes": 44789,
+      "sha256": "d2a89df82ee5f0f56ef23ee59c8161b8d4e92af2b21959d72778316dde3f9f22"
+    },
+    {
+      "path": "Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm.step",
+      "available": true,
+      "bytes": 310984,
+      "sha256": "010e8039ec6f28fb1c5f5c6d170757af464c82c200ecc655c8150398117e2283"
+    },
+    {
+      "path": "Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "available": true,
+      "bytes": 125320,
+      "sha256": "07f46cff378d30e6c27dfd5a03092c795323f86d91c71fc7e743f4f418dc553a"
+    },
+    {
+      "path": "Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "available": true,
+      "bytes": 87532,
+      "sha256": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7"
+    },
+    {
+      "path": "Package_TO_SOT_SMD.3dshapes/Texas_DRT-3.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Package_TO_SOT_SMD.3dshapes/Texas_DRT-3.step",
+      "available": true,
+      "bytes": 49485,
+      "sha256": "826a53de4a90e738d560e4a906235ba95541b3da40b62f22d8f9e30fd9f39744"
+    },
+    {
+      "path": "Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/10.0.5/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "available": true,
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+Reference,Quantity,Value,Manufacturer,MPN,Package,KiCad footprint,Source
+C1,1,2.2u,Murata,GRM21BR71E225KA73L,C_0805_2012Metric,Capacitor_SMD:C_0805_2012Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C2,1,2.2u,Murata,GRM21BR71E225KA73L,C_0805_2012Metric,Capacitor_SMD:C_0805_2012Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C3,1,15p,Murata,GRM1885C1H150JA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C4,1,15p,Murata,GRM1885C1H150JA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C5,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C6,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C7,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C8,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C9,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C10,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C11,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C12,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C13,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C14,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C15,1,100n,Murata,GRM188R71C104KA01D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C16,1,1u,Murata,GRM188R71C105KA12D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+C17,1,1u,Murata,GRM188R71C105KA12D,C_0603_1608Metric,Capacitor_SMD:C_0603_1608Metric,https://www.murata.com/en-us/products/capacitor/ceramiccapacitor
+D1,1,TPD2EUSB30,Texas Instruments,TPD2EUSB30DRTR,Texas_DRT-3,Package_TO_SOT_SMD:Texas_DRT-3,https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
+J1,1,USB-C,GCT,USB4085-GF-A,USB_C_Receptacle_GCT_USB4085,Connector_USB:USB_C_Receptacle_GCT_USB4085,https://gct.co/connector/usb4085
+J2,1,Analogue,Samtec,TSW-008-07-G-S,PinHeader_1x08_P2.54mm_Vertical,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,https://www.samtec.com/products/tsw
+J3,1,Digital,Samtec,TSW-010-07-G-S,PinHeader_1x10_P2.54mm_Vertical,Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,https://www.samtec.com/products/tsw
+J4,1,I2C0,Samtec,TSW-004-07-G-S,PinHeader_1x04_P2.54mm_Vertical,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,https://www.samtec.com/products/tsw
+J5,1,SWD,Samtec,TSW-005-07-G-S,PinHeader_1x05_P2.54mm_Vertical,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,https://www.samtec.com/products/tsw
+R1,1,5.1k,Yageo,RC0603FR-075K1L,R_0603_1608Metric,Resistor_SMD:R_0603_1608Metric,https://www.yageo.com/
+R2,1,5.1k,Yageo,RC0603FR-075K1L,R_0603_1608Metric,Resistor_SMD:R_0603_1608Metric,https://www.yageo.com/
+R3,1,27,Yageo,RC0603FR-0727RL,R_0603_1608Metric,Resistor_SMD:R_0603_1608Metric,https://www.yageo.com/
+R4,1,27,Yageo,RC0603FR-0727RL,R_0603_1608Metric,Resistor_SMD:R_0603_1608Metric,https://www.yageo.com/
+R5,1,1k,Yageo,RC0603FR-071KL,R_0603_1608Metric,Resistor_SMD:R_0603_1608Metric,https://www.yageo.com/
+R6,1,10k,Yageo,RC0603FR-0710KL,R_0603_1608Metric,Resistor_SMD:R_0603_1608Metric,https://www.yageo.com/
+R7,1,1k,Yageo,RC0603FR-071KL,R_0603_1608Metric,Resistor_SMD:R_0603_1608Metric,https://www.yageo.com/
+R8,1,4.7k,Yageo,RC0603FR-074K7L,R_0603_1608Metric,Resistor_SMD:R_0603_1608Metric,https://www.yageo.com/
+R9,1,4.7k,Yageo,RC0603FR-074K7L,R_0603_1608Metric,Resistor_SMD:R_0603_1608Metric,https://www.yageo.com/
+SW1,1,BOOTSEL,C&K,KMR221GLFS,SW_Push_1P1T_NO_CK_KMR2,Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2,https://www.ckswitches.com/products/switches/product-details/Tactile/KMR2/
+SW2,1,RESET,C&K,KMR221GLFS,SW_Push_1P1T_NO_CK_KMR2,Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2,https://www.ckswitches.com/products/switches/product-details/Tactile/KMR2/
+U1,1,RP2040,Raspberry Pi,RP2040,QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+U2,1,W25Q16JVSNIQ,Winbond,W25Q16JVSNIQ,SOIC-8_3.9x4.9mm_P1.27mm,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.winbond.com/hq/product/code-storage-flash/qspi-nor/w25q-jv/
+U3,1,AP2112K-3.3,Diodes Incorporated,AP2112K-3.3TRG1,SOT-23-5,Package_TO_SOT_SMD:SOT-23-5,https://www.diodes.com/datasheet/download/AP2112.pdf
+Y1,1,12 MHz,Abracon,ABM8-272-T3,Crystal_SMD_3225-4Pin_3.2x2.5mm,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,https://abracon.com/datasheets/ABM8-272-T3.pdf

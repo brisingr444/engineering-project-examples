@@ -1,0 +1,311 @@
+{
+  "engine": "10.0.5",
+  "scope": "Native KiCad geometry read: rectangular routed board outline, footprint origins and visual assembly inspection; no hardware, insertion clearance or certification test.",
+  "board_sha256": "2b04aee0b424cdcf24dd2333600549021ec0e0bba6aa1b1a1d752a02046e0662",
+  "extent_mm": [
+    99.975,
+    69.975,
+    145.025,
+    135.025
+  ],
+  "width_mm": 45.05,
+  "height_mm": 65.05,
+  "components_and_mechanical": 42,
+  "outside": [],
+  "parts": [
+    {
+      "ref": "C1",
+      "x_mm": 114.5,
+      "y_mm": 83.25,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C10",
+      "x_mm": 121.2,
+      "y_mm": 90.2,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C11",
+      "x_mm": 132.5,
+      "y_mm": 91.5,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C12",
+      "x_mm": 127.5,
+      "y_mm": 95.8,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C13",
+      "x_mm": 129.3,
+      "y_mm": 105.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C14",
+      "x_mm": 120.7,
+      "y_mm": 95.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C15",
+      "x_mm": 115.0,
+      "y_mm": 87.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C16",
+      "x_mm": 131.0,
+      "y_mm": 95.4,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C17",
+      "x_mm": 128.6,
+      "y_mm": 91.3,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C2",
+      "x_mm": 107.0,
+      "y_mm": 82.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C3",
+      "x_mm": 118.0,
+      "y_mm": 111.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C4",
+      "x_mm": 124.3,
+      "y_mm": 111.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C5",
+      "x_mm": 116.8,
+      "y_mm": 98.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C6",
+      "x_mm": 116.8,
+      "y_mm": 102.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C7",
+      "x_mm": 125.8,
+      "y_mm": 107.5,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C8",
+      "x_mm": 129.2,
+      "y_mm": 102.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "C9",
+      "x_mm": 129.2,
+      "y_mm": 98.4,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "D1",
+      "x_mm": 123.05,
+      "y_mm": 81.5,
+      "origin_in_outline": true,
+      "pads": 3
+    },
+    {
+      "ref": "H1",
+      "x_mm": 103.5,
+      "y_mm": 73.5,
+      "origin_in_outline": true,
+      "pads": 1
+    },
+    {
+      "ref": "H2",
+      "x_mm": 141.5,
+      "y_mm": 73.5,
+      "origin_in_outline": true,
+      "pads": 1
+    },
+    {
+      "ref": "H3",
+      "x_mm": 141.5,
+      "y_mm": 131.5,
+      "origin_in_outline": true,
+      "pads": 1
+    },
+    {
+      "ref": "H4",
+      "x_mm": 103.5,
+      "y_mm": 131.5,
+      "origin_in_outline": true,
+      "pads": 1
+    },
+    {
+      "ref": "J1",
+      "x_mm": 126.0,
+      "y_mm": 79.1,
+      "origin_in_outline": true,
+      "pads": 20
+    },
+    {
+      "ref": "J2",
+      "x_mm": 142.0,
+      "y_mm": 94.0,
+      "origin_in_outline": true,
+      "pads": 8
+    },
+    {
+      "ref": "J3",
+      "x_mm": 103.0,
+      "y_mm": 92.0,
+      "origin_in_outline": true,
+      "pads": 10
+    },
+    {
+      "ref": "J4",
+      "x_mm": 109.0,
+      "y_mm": 129.0,
+      "origin_in_outline": true,
+      "pads": 4
+    },
+    {
+      "ref": "J5",
+      "x_mm": 124.0,
+      "y_mm": 129.0,
+      "origin_in_outline": true,
+      "pads": 5
+    },
+    {
+      "ref": "R1",
+      "x_mm": 129.5,
+      "y_mm": 82.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "R2",
+      "x_mm": 117.0,
+      "y_mm": 82.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "R3",
+      "x_mm": 123.4,
+      "y_mm": 94.9,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "R4",
+      "x_mm": 125.0,
+      "y_mm": 94.9,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "R5",
+      "x_mm": 122.8,
+      "y_mm": 107.2,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "R6",
+      "x_mm": 111.0,
+      "y_mm": 90.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "R7",
+      "x_mm": 111.0,
+      "y_mm": 94.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "R8",
+      "x_mm": 111.0,
+      "y_mm": 124.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "R9",
+      "x_mm": 116.0,
+      "y_mm": 124.0,
+      "origin_in_outline": true,
+      "pads": 2
+    },
+    {
+      "ref": "SW1",
+      "x_mm": 110.2,
+      "y_mm": 74.0,
+      "origin_in_outline": true,
+      "pads": 4
+    },
+    {
+      "ref": "SW2",
+      "x_mm": 134.8,
+      "y_mm": 74.0,
+      "origin_in_outline": true,
+      "pads": 4
+    },
+    {
+      "ref": "U1",
+      "x_mm": 123.0,
+      "y_mm": 101.0,
+      "origin_in_outline": true,
+      "pads": 61
+    },
+    {
+      "ref": "U2",
+      "x_mm": 116.0,
+      "y_mm": 92.0,
+      "origin_in_outline": true,
+      "pads": 8
+    },
+    {
+      "ref": "U3",
+      "x_mm": 111.0,
+      "y_mm": 82.0,
+      "origin_in_outline": true,
+      "pads": 5
+    },
+    {
+      "ref": "Y1",
+      "x_mm": 121.0,
+      "y_mm": 111.0,
+      "origin_in_outline": true,
+      "pads": 4
+    }
+  ]
+}

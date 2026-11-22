@@ -1,0 +1,7 @@
+# Licences and attribution
+
+The original RP2040 board design and its accompanying project documentation are made available under CERN Open Hardware Licence Version 2, Permissive (CERN-OHL-P-2.0). See LICENSE.txt. Designed for TraceForge by the private in-app Agent from a blank native project. The operator specified the bench brief, reviewed the design and checked the portable handoff.
+
+Third-party material retains its own notices and licences. The schematic and board use KiCad library symbols and footprints; referenced library names are in the editable files and Bench-BOM.csv. The fifteen unmodified project-local footprint modules in the ten .pretty directories retain the KiCad library licence and design exception (KiCad-CC-BY-SA-4.0.txt). The project table refers to these local modules. The fourteen unmodified model files in models/ come from the official KiCad 3D library, tag 10.0.5. See models/LICENSE.md for the KiCad library licence and exception, and models/sources.json for individual upstream URLs and SHA-256 digests. Model-file headers retain contributor information. models/ and its contents are not relicensed under the original-board licence.
+
+The component data sheets linked in PROJECT.md and the BOM are not redistributed. Manufacturer and product names identify the parts; they do not imply approval or certification. No TraceForge application code, authentication material or licensed toolchain is included.

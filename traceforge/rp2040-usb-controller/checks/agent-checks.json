@@ -1,0 +1,130 @@
+{
+  "board_sha256": "2b04aee0b424cdcf24dd2333600549021ec0e0bba6aa1b1a1d752a02046e0662",
+  "native_suite": "full",
+  "counts": {
+    "failed": 0,
+    "omitted": 0,
+    "passed": 14,
+    "reported": 23,
+    "requested": 23,
+    "skipped": 9
+  },
+  "checks": [
+    {
+      "name": "required_files",
+      "status": "pass",
+      "message": "all manifest files are present and safe"
+    },
+    {
+      "name": "semantic_graph",
+      "status": "pass",
+      "message": "42 components, 42 unique footprint references, 192 pads, 22 BOM lines"
+    },
+    {
+      "name": "schematic_board_parity",
+      "status": "pass",
+      "message": "42 schematic references match PCB footprints"
+    },
+    {
+      "name": "footprint_assignment_parity",
+      "status": "pass",
+      "message": "42 schematic footprint assignments match PCB modules"
+    },
+    {
+      "name": "net_name_parity",
+      "status": "pass",
+      "message": "37 schematic net labels are covered by PCB nets"
+    },
+    {
+      "name": "board_net_connectivity",
+      "status": "pass",
+      "message": "184 PCB pad connections resolve to declared nets"
+    },
+    {
+      "name": "inserted_component_contract",
+      "status": "skip",
+      "message": "proposal does not declare a component insertion"
+    },
+    {
+      "name": "drc_repair_contract",
+      "status": "skip",
+      "message": "proposal does not declare a DRC repair"
+    },
+    {
+      "name": "erc_no_connect_repair_contract",
+      "status": "skip",
+      "message": "proposal does not declare an ERC no-connect repair"
+    },
+    {
+      "name": "erc_power_flag_repair_contract",
+      "status": "skip",
+      "message": "proposal does not declare an ERC power-flag repair"
+    },
+    {
+      "name": "footprint_link_repair_contract",
+      "status": "skip",
+      "message": "proposal does not declare a manifest-bound footprint-link repair"
+    },
+    {
+      "name": "footprint_library_refresh_contract",
+      "status": "skip",
+      "message": "proposal does not declare an embedded footprint refresh"
+    },
+    {
+      "name": "topology_preservation",
+      "status": "skip",
+      "message": "proposal does not declare a topology-preserving net/reference rename"
+    },
+    {
+      "name": "pin_pad_coverage",
+      "status": "pass",
+      "message": "schematic pin identifiers have matching PCB pad identifiers"
+    },
+    {
+      "name": "pin_pad_semantic_compatibility",
+      "status": "pass",
+      "message": "schematic pin roles and PCB pad geometry are complete for indexed components"
+    },
+    {
+      "name": "footprint_library_integrity",
+      "status": "pass",
+      "message": "42 local footprint modules match board pad geometry"
+    },
+    {
+      "name": "bom_consistency",
+      "status": "pass",
+      "message": "schematic and board values agree"
+    },
+    {
+      "name": "release_geometry_contract",
+      "status": "skip",
+      "message": "fixture release profile declares no applicable board-geometry prerequisites"
+    },
+    {
+      "name": "golden_semantic_snapshot",
+      "status": "skip",
+      "message": "fixture has no golden snapshot"
+    },
+    {
+      "name": "runtime_compatibility",
+      "status": "pass",
+      "message": "2 KiCad files fit the pinned format contract"
+    },
+    {
+      "name": "schematic_pcb_net_membership",
+      "status": "pass",
+      "message": "158 schematic net memberships are present on the PCB"
+    },
+    {
+      "name": "kicad-cli_sch_erc",
+      "status": "pass",
+      "message": "1 samples; violations min=0, max=0"
+    },
+    {
+      "name": "kicad-cli_pcb_drc",
+      "status": "pass",
+      "message": "1 samples; violations min=0, max=0"
+    }
+  ],
+  "scope": "Unbuilt reference. No board fabrication, signal-integrity certification, USB compliance, or hardware bring-up."
+}

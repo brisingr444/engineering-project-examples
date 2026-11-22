@@ -1,0 +1,4 @@
+(version 1)
+(rule "USB4085 stock through-hole contact lands"
+ (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('J1') && B.memberOfFootprint('J1')")
+ (constraint clearance (min 0.15mm)))

@@ -1,0 +1,3 @@
+asset,bus,convention,baseline_MW,baseline_MVAr,depot_plus_sun_MW,depot_plus_sun_MVAr
+EV depot,B17,positive_consumption,0.60,0.12,3.60,0.72
+Rooftop PV,B25,positive_injection,0.20,0,2.40,0

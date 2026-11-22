@@ -1,0 +1,30 @@
+{
+  "change": "Private-agent revision of saved native diagrams only, in both scenarios. The electrical inputs and historic calculations were not changed or repeated.",
+  "original_saved_project_sha256": "96640aa71ed5636fc69c36a1aec57a099e957bd696deb5d7e68c079328771052",
+  "diagram_revision_sha256": "0535b0b9fe3b94aa4d08d34e8693b8903ce07eb4d621f6aba34a45284c64c436",
+  "unchanged_original_members": 176,
+  "changed_members": [
+    "multiverse/159da1df617b4c17a4148f2419e26c31/diagrams/2e63fe5e10f0493c8343633c3120b7db.diagram",
+    "multiverse/159da1df617b4c17a4148f2419e26c31/diagrams/tree.json",
+    "multiverse/b14ae12d909f46d094caaa9d15bc7165/diagrams/2e63fe5e10f0493c8343633c3120b7db.diagram",
+    "multiverse/b14ae12d909f46d094caaa9d15bc7165/diagrams/tree.json"
+  ],
+  "added_members": [
+    "multiverse/159da1df617b4c17a4148f2419e26c31/diagrams/ad92fed5cbbf4509a4fc4538113bd55f.diagram",
+    "multiverse/b14ae12d909f46d094caaa9d15bc7165/diagrams/ad92fed5cbbf4509a4fc4538113bd55f.diagram"
+  ],
+  "removed_members": [],
+  "original_receipt_extracts_sha256": "67fc367bfde951d21091473167e7d8e3ed2b5ada5708fd827a60c9d74507d330",
+  "full_precision_results_sha256": "d80fcb0e3f4ea203d4b7fb7a00845c3324e6ec7756432c1b9e6f1333f0b27927",
+  "site_overview": {
+    "visible_bus_names": 33,
+    "viewport_px": [
+      1090,
+      549
+    ],
+    "original_intersecting_bus_label_pairs": 23,
+    "revised_intersecting_bus_label_pairs": 0,
+    "clipped_labels": 0
+  },
+  "depot_detail": "B02–B12–B16–B17; four visible full labels; zero overlaps at the same fit-to-view size."
+}

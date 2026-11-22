@@ -1,0 +1,34 @@
+bus,area,name,kV,connect_from,requested_link,load_MW,load_MVAr
+B01,Supply,Utility intake,110,,external_grid,0,0
+B02,Supply,North primary,33,B01,T-N 110/33 kV 40 MVA,0,0
+B03,Supply,South primary,33,B01,T-S 110/33 kV 40 MVA,0,0
+B04,Process,Mill distribution,11,B02,T-M 33/11 kV 16 MVA,0,0
+B05,Process,Raw materials,11,B04,line,0.85,0.28
+B06,Process,Milling hall,11,B05,line,1.85,0.62
+B07,Process,Finishing,11,B06,line,0.95,0.30
+B08,Process,Process pumps,11,B05,line,0.76,0.25
+B09,Process,Compressor plant,11,B08,line,1.08,0.37
+B10,Process,Workshop,11,B04,line,0.48,0.15
+B11,Process,Maintenance stores,11,B10,line,0.24,0.07
+B12,Logistics,Freight distribution,11,B02,T-F 33/11 kV 16 MVA,0,0
+B13,Logistics,Receiving shed,11,B12,line,0.64,0.20
+B14,Logistics,Conveyors,11,B13,line,0.92,0.29
+B15,Logistics,Dispatch building,11,B14,line,0.58,0.18
+B16,Logistics,Vehicle yard,11,B12,line,0.31,0.10
+B17,Logistics,EV depot PCC,11,B16,line,0,0
+B18,Logistics,Refrigerated store,11,B12,line,1.12,0.36
+B19,Logistics,Packing dock,11,B18,line,0.70,0.22
+B20,Fabrication,Fabrication distribution,11,B03,T-P 33/11 kV 16 MVA,0,0
+B21,Fabrication,Press bay,11,B20,line,1.38,0.46
+B22,Fabrication,Machine shop,11,B21,line,1.16,0.37
+B23,Fabrication,Assembly hall,11,B22,line,0.92,0.27
+B24,Fabrication,Paint shop,11,B20,line,0.72,0.23
+B25,Fabrication,Roof PV PCC,11,B24,line,0,0
+B26,Fabrication,Test bay,11,B20,line,0.53,0.17
+B27,Services,Utilities distribution,11,B03,T-U 33/11 kV 16 MVA,0,0
+B28,Services,Water treatment,11,B27,line,0.83,0.27
+B29,Services,Chiller house,11,B28,line,1.24,0.40
+B30,Services,Heat recovery,11,B29,line,0.44,0.14
+B31,Services,Administration,11,B27,line,0.33,0.10
+B32,Services,Lighting services,11,B31,line,0.22,0.06
+B33,Services,Fire-water pumps,11,B27,line,0.39,0.13

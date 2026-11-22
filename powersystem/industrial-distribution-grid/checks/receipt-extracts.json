@@ -1,0 +1,85 @@
+{
+  "source": "Read-only extracts of the two native study receipts, cross-checked against their saved case versions and creator CSV. No calculation replay.",
+  "editable_project_sha256": "96640aa71ed5636fc69c36a1aec57a099e957bd696deb5d7e68c079328771052",
+  "engineering_approval": false,
+  "cases": [
+    {
+      "case": "Baseline",
+      "native_case_version": "d084c4059f58e27a1454d3c95d24fbf099e1826639ac6ee5a3f0ccc060023b3b",
+      "native_receipt_sha256": "bae6c2cb8bbce91031d7f818a640a907092b83041f52e8a102748fb46cfbea06",
+      "scenario_id": 1,
+      "native_case_id": "fe8ea3dd12cf45739f0a5dc58bfbb95e",
+      "power_flow_options": {
+        "control_q": false,
+        "control_remote_voltage": false,
+        "control_taps_modules": false,
+        "control_taps_phase": false,
+        "distributed_slack": false,
+        "max_iter": 50,
+        "tolerance": 1e-08
+      },
+      "power_flow_kind": "power-flow",
+      "n1": false,
+      "converged": true,
+      "bus": {
+        "angle_rad": -0.05610826126663126,
+        "id": "000000000000000000000000000003f9",
+        "max_pu": 1.05,
+        "min_pu": 0.95,
+        "name": "B17 EV depot PCC",
+        "voltage_pu": 0.9968956420936018
+      },
+      "branch": {
+        "id": "00000000000000000000000000000425",
+        "loading_percent": 12.23940540870691,
+        "loss_mw": 7.9706004618596e-05,
+        "name": "B16–B17",
+        "p_from_mw": 0.6000797059629851,
+        "p_to_mw": -0.5999999999583665,
+        "q_from_mvar": 0.12004981627677427,
+        "q_to_mvar": -0.12000000002388757,
+        "rate_mva": 5.0
+      },
+      "recorded_violations": 0
+    },
+    {
+      "case": "Depot plus sun",
+      "native_case_version": "7df4eb32dcd30dd50386e6ea8a07b38e3433a39ee3381450892f08d745ddf83e",
+      "native_receipt_sha256": "9c31a20f60846be2756f60058fe395b3afc9c50f0b26a7603a131babd1d034bd",
+      "scenario_id": 2,
+      "native_case_id": "b242ac73b0b945459ba2b1647d1e337a",
+      "power_flow_options": {
+        "control_q": false,
+        "control_remote_voltage": false,
+        "control_taps_modules": false,
+        "control_taps_phase": false,
+        "distributed_slack": false,
+        "max_iter": 50,
+        "tolerance": 1e-08
+      },
+      "power_flow_kind": "power-flow",
+      "n1": false,
+      "converged": true,
+      "bus": {
+        "angle_rad": -0.08071411574788137,
+        "id": "000000000000000000000000000003f9",
+        "max_pu": 1.05,
+        "min_pu": 0.95,
+        "name": "B17 EV depot PCC",
+        "voltage_pu": 0.9878060840988501
+      },
+      "branch": {
+        "id": "00000000000000000000000000000425",
+        "loading_percent": 73.49036352334245,
+        "loss_mw": 0.002922466498926024,
+        "name": "B16–B17",
+        "p_from_mw": 3.602922461870444,
+        "p_to_mw": -3.599999995371518,
+        "q_from_mvar": 0.7218265447681854,
+        "q_to_mvar": -0.7200000032063567,
+        "rate_mva": 5.0
+      },
+      "recorded_violations": 0
+    }
+  ]
+}

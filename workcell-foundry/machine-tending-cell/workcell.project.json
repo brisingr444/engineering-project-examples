@@ -1,0 +1,7 @@
+{
+  "schema": "workcell.native-project/v1",
+  "project_id": "fe172c0e-ab4a-483f-b3bf-2a9557eda9e4",
+  "engine": "choreonoid",
+  "entrypoint": "project.cnoid",
+  "title": "CNC Machine Tending"
+}

@@ -1,0 +1,373 @@
+items:
+  id: 0
+  name: "RootItem"
+  plugin: Base
+  class: RootItem
+  is_builtin_item: true
+  children:
+    -
+      id: 1
+      name: "World"
+      plugin: Body
+      class: WorldItem
+      data:
+        collision_detection: false
+        collision_detectors:
+          -
+            name: AISTCollisionDetector
+            is_current: true
+            primitive_shape_collision_detection: true
+            contact_persistence_tolerance: 0.0005
+            num_cap_circle_vertices: 16
+        default_material_table_file: "${SHARE}/default/materials.yaml"
+      children:
+        -
+          id: 2
+          name: "UR5e"
+          plugin: Body
+          class: BodyItem
+          is_checked: true
+          data:
+            schema: 2
+            file: "models/UR5e.body"
+            format: CHOREONOID-BODY
+            root_translation: [ 0, 0, 0 ]
+            root_rotation: [ 1, 0, 0, 0 ]
+            joint_displacements: [ -66.8875199717, -103.041824627, 108.610246567, -95.5683844807, -90.0000000118, -156.887519983, 0.02, 0.02 ]
+            initial_joint_displacements: [ -66.8875199566, -103.041824643, 108.610246544, -95.568384453, -90, -156.887519957, 0.02, 0.02 ]
+            initial_root_translation: [ 0, 0, 0 ]
+            initial_root_rotation: [ 1, 0, 0, 0 ]
+            fix_root: true
+            collision_detection: true
+            lock_location: false
+            scene_sensitive: true
+          children:
+            -
+              id: 3
+              name: "UR5e cycle"
+              plugin: Body
+              class: BodyMotionItem
+              is_checked: true
+              data:
+                file: "motions/UR5e.seq"
+                format: BODY-MOTION-YAML
+                offset_time: 0
+        -
+          id: 4
+          name: "CNC"
+          plugin: Body
+          class: BodyItem
+          is_checked: true
+          data:
+            schema: 2
+            file: "models/CNC.body"
+            format: CHOREONOID-BODY
+            root_translation: [ 0, 0, 0 ]
+            root_rotation: [ 1, 0, 0, 0 ]
+            joint_displacements: [ 0.022, 0.022, 0.022, 0.72 ]
+            initial_root_translation: [ 0, 0, 0 ]
+            initial_root_rotation: [ 1, 0, 0, 0 ]
+            fix_root: true
+            collision_detection: true
+            lock_location: false
+            scene_sensitive: true
+          children:
+            -
+              id: 5
+              name: "CNC cycle"
+              plugin: Body
+              class: BodyMotionItem
+              is_checked: true
+              data:
+                file: "motions/CNC.seq"
+                format: BODY-MOTION-YAML
+                offset_time: 0
+        -
+          id: 6
+          name: "RawTray"
+          plugin: Body
+          class: BodyItem
+          is_checked: true
+          data:
+            schema: 2
+            file: "models/RawTray.body"
+            format: CHOREONOID-BODY
+            root_translation: [ 0, 0, 0 ]
+            root_rotation: [ 1, 0, 0, 0 ]
+            initial_root_translation: [ 0, 0, 0 ]
+            initial_root_rotation: [ 1, 0, 0, 0 ]
+            fix_root: true
+            collision_detection: true
+            lock_location: false
+            scene_sensitive: true
+        -
+          id: 7
+          name: "FinishedTray"
+          plugin: Body
+          class: BodyItem
+          is_checked: true
+          data:
+            schema: 2
+            file: "models/FinishedTray.body"
+            format: CHOREONOID-BODY
+            root_translation: [ 0, 0, 0 ]
+            root_rotation: [ 1, 0, 0, 0 ]
+            initial_root_translation: [ 0, 0, 0 ]
+            initial_root_rotation: [ 1, 0, 0, 0 ]
+            fix_root: true
+            collision_detection: true
+            lock_location: false
+            scene_sensitive: true
+        -
+          id: 8
+          name: "Guarding"
+          plugin: Body
+          class: BodyItem
+          is_checked: true
+          data:
+            schema: 2
+            file: "models/Guarding.body"
+            format: CHOREONOID-BODY
+            root_translation: [ 0, 0, 0 ]
+            root_rotation: [ 1, 0, 0, 0 ]
+            initial_root_translation: [ 0, 0, 0 ]
+            initial_root_rotation: [ 1, 0, 0, 0 ]
+            fix_root: true
+            collision_detection: true
+            lock_location: false
+            scene_sensitive: true
+        -
+          id: 9
+          name: "Blank"
+          plugin: Body
+          class: BodyItem
+          is_checked: true
+          data:
+            schema: 2
+            file: "models/Blank.body"
+            format: CHOREONOID-BODY
+            root_translation: [ 0.303, -0.31, 0.18 ]
+            root_rotation: [ 1, 0, 0, 0 ]
+            initial_root_translation: [ 0.303, -0.31, 0.18 ]
+            initial_root_rotation: [ 1, 0, 0, 0 ]
+            fix_root: false
+            collision_detection: true
+            lock_location: false
+            scene_sensitive: true
+          children:
+            -
+              id: 10
+              name: "Blank cycle"
+              plugin: Body
+              class: BodyMotionItem
+              is_checked: true
+              data:
+                file: "motions/Blank.seq"
+                format: BODY-MOTION-YAML
+                offset_time: 0
+views:
+  -
+    id: 0
+    plugin: Base
+    class: ItemPropertyView
+  -
+    id: 1
+    plugin: Base
+    class: ItemTreeView
+    state:
+      expanded: [ 1, 2, 4, 9 ]
+  -
+    id: 2
+    plugin: Base
+    class: LocationView
+    state:
+      show_rpy: true
+      unique_rpy: false
+      show_quaternion: false
+      show_rotation_matrix: false
+      coordinate: parent
+  -
+    id: 3
+    plugin: Base
+    class: MessageView
+  -
+    id: 4
+    plugin: Base
+    class: SceneView
+    state:
+      operation_mode: view
+      viewpoint_operation_mode: third_person
+      focus_position: [ 0, 0, 0 ]
+      visible_polygon_elements: [ face ]
+      highlighting: false
+      collision_highlighting: false
+      collision_lines: false
+      lighting_mode: normal
+      culling_mode: enabled
+      shading_mode: smooth
+      world_light: true
+      world_light_intensity: 0.5
+      ambient_light: true
+      ambient_light_intensity: 0.5
+      head_light: true
+      head_light_intensity: 0.5
+      world_light_shadow: true
+      shadow_lights:
+        - { index: 0, enabled: false }
+        - { index: 1, enabled: false }
+      background_color: [ 0.1, 0.1, 0.3 ]
+      line_width: 1
+      point_size: 1
+      field_of_view: 35
+      clip_distances: [ 0.04, 200 ]
+      infinite_far_clip: true
+      floor_grid: true
+      floor_grid_span: 10
+      floor_grid_interval: 0.5
+      xz_grid: false
+      xz_grid_span: 10
+      xz_grid_interval: 0.5
+      yz_grid: false
+      yz_grid_span: 10
+      yz_grid_interval: 0.5
+      xy_grid_color: [ 0.9, 0.9, 0.9 ]
+      xz_grid_color: [ 0.9, 0.9, 0.9 ]
+      yz_grid_color: [ 0.9, 0.9, 0.9 ]
+  -
+    id: 5
+    plugin: Body
+    class: JointDisplacementView
+    state:
+      show_joint_ids: true
+      show_joint_names: false
+      overlap_joint_names: false
+      show_sliders: true
+      show_dials: false
+      show_phases: true
+      limit_ranges: false
+      show_selected_joints: false
+  -
+    id: 6
+    plugin: Body
+    class: LinkDeviceListView
+    state:
+      element_type: all
+      listing_mode: list
+  -
+    id: 7
+    plugin: Body
+    class: LinkPositionView
+    state:
+      coordinate_mode: world
+      preferred_coordinate_mode: base
+      show_rpy: true
+      unique_rpy: false
+      show_quaternion: false
+      show_rotation_matrix: false
+      target_link_type: ik_link
+  -
+    id: 8
+    plugin: Body
+    class: LinkPropertyView
+  -
+    id: 9
+    plugin: Python
+    class: PythonConsoleView
+toolbars:
+  "TimeBar":
+    current_time: 0
+    min_time: 0
+    max_time: 35.8
+    frame_rate: 50
+    playback_frame_rate: 60
+    idle_loop_driven_mode: false
+    playback_speed_ratio: 1
+    sync_to_ongoing_updates: true
+    auto_expansion: true
+  "LeggedBodyBar":
+    stanceWidth: 0.15
+  "KinematicsBar":
+    forward_kinematics: true
+    inverse_kinematics: true
+    preset_kinematics: true
+    enablePositionDragger: true
+    penetrationBlock: false
+    snapDistance: 0.025
+    penetrationBlockDepth: 0.0005
+    lazyCollisionDetectionMode: true
+  "BodyMotionGenerationBar":
+    auto_generation: false
+    auto_generation_for_new_body: true
+    balancer: false
+    timeScaleRatio: 1
+    preInitialDuration: 1
+    postFinalDuration: 1
+    onlyTimeBarRange: false
+    output_new_body_motion_item: true
+    step_trajectory_adjustment_mode: stealthy
+    stealthyHeightRatioThresh: 2
+    flatLiftingHeight: 0.005
+    flatLandingHeight: 0.005
+    impactReductionHeight: 0.005
+    impactReductionTime: 0.04
+    toe_contact_time: 0.1
+    toe_contact_angle: 10
+    autoZmp: true
+    minZmpTransitionTime: 0.1
+    zmpCenteringTimeThresh: 0.03
+    zmpTimeMarginBeforeLiftingSpin: 0
+    zmpMaxDistanceFromCenter: 0.02
+    allLinkPositions: false
+    lipSyncMix: false
+Body:
+  "KinematicFaultChecker":
+    checkJointPositions: true
+    angleMargin: 0
+    translationMargin: 0
+    checkJointVelocities: true
+    velocityLimitRatio: 100
+    targetJoints: all
+    checkSelfCollisions: true
+    onlyTimeBarRange: false
+  "OperableSceneBody":
+    scene_bodies:
+      -
+        body_item: 2
+        show_cm: false
+        show_cm_projection: false
+        show_zmp: false
+      -
+        body_item: 4
+        show_cm: false
+        show_cm_projection: false
+        show_zmp: false
+      -
+        body_item: 6
+        show_cm: false
+        show_cm_projection: false
+        show_zmp: false
+      -
+        body_item: 7
+        show_cm: false
+        show_cm_projection: false
+        show_zmp: false
+      -
+        body_item: 8
+        show_cm: false
+        show_cm_projection: false
+        show_zmp: false
+      -
+        body_item: 9
+        show_cm: false
+        show_cm_projection: false
+        show_zmp: false
+  "SplineFilterDialog":
+    isInputFrameRateSpecified: false
+    inputFrameRate: 200
+    isOutputFrameRateSpecified: false
+    outputFrameRate: 200
+PoseSeq:
+  "FootFixFilterDialog":
+    waist_height_offset: 0
+toolbar_layout:
+  rows: [ ]

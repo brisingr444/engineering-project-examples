@@ -1,0 +1,218 @@
+{
+  "rate": 50,
+  "targets": {
+    "raw": [
+      0.278,
+      -0.31,
+      0.18
+    ],
+    "rawAbove": [
+      0.278,
+      -0.31,
+      0.34
+    ],
+    "finished": [
+      0.278,
+      0.31,
+      0.18
+    ],
+    "finishedAbove": [
+      0.278,
+      0.31,
+      0.34
+    ],
+    "park": [
+      0.25,
+      0,
+      0.39
+    ],
+    "approach": [
+      0.29,
+      0,
+      0.32
+    ],
+    "seat": [
+      0.57,
+      0,
+      0.32
+    ]
+  },
+  "tcp_in_flange": [
+    0,
+    0.099,
+    0
+  ],
+  "blank_center_from_tcp_world": [
+    0.025,
+    0,
+    0
+  ],
+  "seat_world": [
+    0.635,
+    0,
+    0.32
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "stage": "Start",
+      "target": "rawAbove"
+    },
+    {
+      "time": 2,
+      "stage": "Lower to raw nest",
+      "target": "raw"
+    },
+    {
+      "time": 2.5,
+      "stage": "Acquire raw blank",
+      "target": "raw",
+      "finger": 0,
+      "jaw": 0.022,
+      "door": 0.72,
+      "receive": "gripper"
+    },
+    {
+      "time": 4,
+      "stage": "Lift",
+      "target": "rawAbove"
+    },
+    {
+      "time": 6,
+      "stage": "Park before load",
+      "target": "park"
+    },
+    {
+      "time": 7.5,
+      "stage": "Align to spindle",
+      "target": "approach"
+    },
+    {
+      "time": 10,
+      "stage": "Seat",
+      "target": "seat"
+    },
+    {
+      "time": 10.6,
+      "stage": "Receive at chuck",
+      "target": "seat",
+      "finger": 0,
+      "jaw": 0,
+      "door": 0.72,
+      "receive": "chuck"
+    },
+    {
+      "time": 11.2,
+      "stage": "Release fingers",
+      "target": "seat",
+      "finger": 0.02,
+      "jaw": 0,
+      "door": 0.72
+    },
+    {
+      "time": 13.6,
+      "stage": "Axial withdrawal",
+      "target": "approach"
+    },
+    {
+      "time": 15,
+      "stage": "Exterior park",
+      "target": "park"
+    },
+    {
+      "time": 16.4,
+      "stage": "Door closed",
+      "target": "park",
+      "finger": 0.02,
+      "jaw": 0,
+      "door": 0
+    },
+    {
+      "time": 17.4,
+      "stage": "Dwell",
+      "target": "park"
+    },
+    {
+      "time": 18.8,
+      "stage": "Door open",
+      "target": "park",
+      "finger": 0.02,
+      "jaw": 0,
+      "door": 0.72
+    },
+    {
+      "time": 20.2,
+      "stage": "Align for retrieval",
+      "target": "approach"
+    },
+    {
+      "time": 22.6,
+      "stage": "Reach exposed band",
+      "target": "seat"
+    },
+    {
+      "time": 23.2,
+      "stage": "Receive at gripper",
+      "target": "seat",
+      "finger": 0,
+      "jaw": 0,
+      "door": 0.72,
+      "receive": "gripper"
+    },
+    {
+      "time": 23.8,
+      "stage": "Release chuck jaws",
+      "target": "seat",
+      "finger": 0,
+      "jaw": 0.022,
+      "door": 0.72
+    },
+    {
+      "time": 26.2,
+      "stage": "Extract",
+      "target": "approach"
+    },
+    {
+      "time": 27.6,
+      "stage": "Clear machine",
+      "target": "park"
+    },
+    {
+      "time": 29.6,
+      "stage": "Above finished nest",
+      "target": "finishedAbove"
+    },
+    {
+      "time": 31.6,
+      "stage": "Place in nest",
+      "target": "finished",
+      "finger": 0,
+      "jaw": 0.022,
+      "door": 0.72,
+      "receive": "finished"
+    },
+    {
+      "time": 32.2,
+      "stage": "Release finished blank",
+      "target": "finished",
+      "finger": 0.02,
+      "jaw": 0.022,
+      "door": 0.72
+    },
+    {
+      "time": 33.8,
+      "stage": "Lift empty gripper",
+      "target": "finishedAbove"
+    },
+    {
+      "time": 35.6,
+      "stage": "Park",
+      "target": "park"
+    },
+    {
+      "time": 35.8,
+      "stage": "Hold final park",
+      "target": "park"
+    }
+  ]
+}

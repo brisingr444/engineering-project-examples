@@ -1,0 +1,165 @@
+format: "ChoreonoidBody"
+formatVersion: "2.0"
+angleUnit: "degree"
+name: "CNC"
+links:
+  - name: "Enclosure"
+    jointType: "fixed"
+    elements:
+      - type: "Transform"
+        translation: [0.735, 0, 0.087]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.53, 0.7, 0.044]
+            appearance:
+              material:
+                diffuseColor: [0.12, 0.2, 0.24]
+      - type: "Transform"
+        translation: [0.985, 0, 0.47]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.03, 0.7, 0.77]
+            appearance:
+              material:
+                diffuseColor: [0.13, 0.46, 0.48]
+      - type: "Transform"
+        translation: [0.735, -0.34, 0.47]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.53, 0.02, 0.77]
+            appearance:
+              material:
+                diffuseColor: [0.13, 0.46, 0.48]
+      - type: "Transform"
+        translation: [0.735, 0.34, 0.47]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.53, 0.02, 0.77]
+            appearance:
+              material:
+                diffuseColor: [0.13, 0.46, 0.48]
+      - type: "Transform"
+        translation: [0.735, 0, 0.856]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.53, 0.7, 0.025]
+            appearance:
+              material:
+                diffuseColor: [0.13, 0.46, 0.48]
+      - type: "Transform"
+        translation: [0.84, 0, 0.32]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.22, 0.32, 0.31]
+            appearance:
+              material:
+                diffuseColor: [0.12, 0.2, 0.24]
+      - type: "Transform"
+        translation: [0.688, 0, 0.32]
+        rotation: [0, 0, 1, 90]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Cylinder"
+              radius: 0.097
+              height: 0.106
+            appearance:
+              material:
+                diffuseColor: [0.24, 0.29, 0.32]
+  - name: "ChuckJaw1"
+    parent: "Enclosure"
+    jointType: "prismatic"
+    jointId: 0
+    jointAxis: [0, 1, 0]
+    translation: [0.6225, 0.025, 0.32]
+    jointRange: [0, 0.022]
+    elements:
+      - type: "Transform"
+        translation: [0, 0, 0]
+        rotation: [1, 0, 0, 0]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.025, 0.02, 0.014]
+            appearance:
+              material:
+                diffuseColor: [0.49, 0.55, 0.6]
+  - name: "ChuckJaw2"
+    parent: "Enclosure"
+    jointType: "prismatic"
+    jointId: 1
+    jointAxis: [0, -0.5, 0.8660254037844]
+    translation: [0.6225, -0.0125, 0.3416506350946]
+    jointRange: [0, 0.022]
+    elements:
+      - type: "Transform"
+        translation: [0, 0, 0]
+        rotation: [1, 0, 0, 120]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.025, 0.02, 0.014]
+            appearance:
+              material:
+                diffuseColor: [0.49, 0.55, 0.6]
+  - name: "ChuckJaw3"
+    parent: "Enclosure"
+    jointType: "prismatic"
+    jointId: 2
+    jointAxis: [0, -0.5, -0.8660254037844]
+    translation: [0.6225, -0.0125, 0.2983493649054]
+    jointRange: [0, 0.022]
+    elements:
+      - type: "Transform"
+        translation: [0, 0, 0]
+        rotation: [1, 0, 0, 240]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.025, 0.02, 0.014]
+            appearance:
+              material:
+                diffuseColor: [0.49, 0.55, 0.6]
+  - name: "SlidingDoor"
+    parent: "Enclosure"
+    jointType: "prismatic"
+    jointId: 3
+    jointAxis: [0, 1, 0]
+    translation: [0.45, 0, 0.478]
+    jointRange: [0, 0.72]
+    elements:
+      - type: "Transform"
+        translation: [0, 0, 0]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.016, 0.672, 0.73]
+            appearance:
+              material:
+                diffuseColor: [0.12, 0.2, 0.24]
+      - type: "Transform"
+        translation: [-0.011, 0.265, 0]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.007, 0.023, 0.16]
+            appearance:
+              material:
+                diffuseColor: [0.96, 0.59, 0.13]

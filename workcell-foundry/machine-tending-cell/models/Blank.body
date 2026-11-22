@@ -1,0 +1,21 @@
+format: "ChoreonoidBody"
+formatVersion: "2.0"
+angleUnit: "degree"
+name: "Blank"
+links:
+  - name: "Blank"
+    jointType: "free"
+    mass: 0.44
+    elements:
+      - type: "Transform"
+        translation: [0, 0, 0]
+        rotation: [0, 0, 1, 90]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Cylinder"
+              radius: 0.015
+              height: 0.08
+            appearance:
+              material:
+                diffuseColor: [0.83, 0.6, 0.3]

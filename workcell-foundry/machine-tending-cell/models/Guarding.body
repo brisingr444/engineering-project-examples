@@ -1,0 +1,110 @@
+format: "ChoreonoidBody"
+formatVersion: "2.0"
+angleUnit: "degree"
+name: "Guarding"
+links:
+  - name: "Guarding"
+    jointType: "fixed"
+    elements:
+      - type: "Transform"
+        translation: [0.38, 0, -0.031]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [1.45, 2.34, 0.046]
+            appearance:
+              material:
+                diffuseColor: [0.39, 0.44, 0.45]
+      - type: "Transform"
+        translation: [0, 0, -0.004]
+        rotation: [1, 0, 0, 90]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Cylinder"
+              radius: 0.115
+              height: 0.008
+            appearance:
+              material:
+                diffuseColor: [0.24, 0.29, 0.32]
+      - type: "Transform"
+        translation: [-0.32, -1.13, 0.3]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.028, 0.028, 0.6]
+            appearance:
+              material:
+                diffuseColor: [0.96, 0.59, 0.13]
+      - type: "Transform"
+        translation: [-0.32, 1.13, 0.3]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.028, 0.028, 0.6]
+            appearance:
+              material:
+                diffuseColor: [0.96, 0.59, 0.13]
+      - type: "Transform"
+        translation: [1.06, -1.13, 0.3]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.028, 0.028, 0.6]
+            appearance:
+              material:
+                diffuseColor: [0.96, 0.59, 0.13]
+      - type: "Transform"
+        translation: [1.06, 1.13, 0.3]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [0.028, 0.028, 0.6]
+            appearance:
+              material:
+                diffuseColor: [0.96, 0.59, 0.13]
+      - type: "Transform"
+        translation: [0.37, -1.13, 0.18]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [1.4, 0.014, 0.023]
+            appearance:
+              material:
+                diffuseColor: [0.96, 0.59, 0.13]
+      - type: "Transform"
+        translation: [0.37, 1.13, 0.18]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [1.4, 0.014, 0.023]
+            appearance:
+              material:
+                diffuseColor: [0.96, 0.59, 0.13]
+      - type: "Transform"
+        translation: [0.37, -1.13, 0.57]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [1.4, 0.014, 0.023]
+            appearance:
+              material:
+                diffuseColor: [0.96, 0.59, 0.13]
+      - type: "Transform"
+        translation: [0.37, 1.13, 0.57]
+        elements:
+          - type: "Shape"
+            geometry:
+              type: "Box"
+              size: [1.4, 0.014, 0.023]
+            appearance:
+              material:
+                diffuseColor: [0.96, 0.59, 0.13]

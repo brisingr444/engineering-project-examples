@@ -1,0 +1,16 @@
+{
+  "raw_dimensions_mm": {
+    "HousingDiameter": 104.00000000000001,
+    "CaseAxialLength": 76.0,
+    "InputProjection": 15.0,
+    "OutputProjection": 19.999999999999993,
+    "InputJournalDiameter": 9.990000000000002,
+    "OutputJournalDiameter": 14.989999999999995,
+    "CoverBoltCircle": 94.0,
+    "PinCircle": 45.0
+  },
+  "unsaved_case_OD_edit_mm": [
+    106.0,
+    105.99999999999999
+  ]
+}

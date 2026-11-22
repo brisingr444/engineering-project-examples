@@ -1,0 +1,839 @@
+{
+  "kernel_common_volume_samples": [
+    [
+      "Dog seated in ring pocket",
+      "RingLock",
+      "FixedRing",
+      0,
+      0.0
+    ],
+    [
+      "Dog seated in ring pocket",
+      "RingLock001",
+      "FixedRing",
+      0,
+      0.0
+    ],
+    [
+      "Dog seated in ring pocket",
+      "RingLock002",
+      "FixedRing",
+      0,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "CaseShell",
+      0,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "FrontCarrierPlate",
+      0,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "FrontCarrierPlate",
+      0,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "OutputShaft",
+      0,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "CaseShell",
+      1,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "FrontCarrierPlate",
+      1,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "FrontCarrierPlate",
+      1,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "OutputShaft",
+      1,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "CaseShell",
+      6,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "FrontCarrierPlate",
+      6,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "FrontCarrierPlate",
+      6,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "OutputShaft",
+      6,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "CaseShell",
+      12,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "FrontCarrierPlate",
+      12,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "FrontCarrierPlate",
+      12,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "OutputShaft",
+      12,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "CaseShell",
+      18,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "FrontCarrierPlate",
+      18,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "FrontCarrierPlate",
+      18,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "OutputShaft",
+      18,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "CaseShell",
+      30,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "FrontCarrierPlate",
+      30,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "FrontCarrierPlate",
+      30,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "OutputShaft",
+      30,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "CaseShell",
+      60,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "ServiceCover",
+      "FrontCarrierPlate",
+      60,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "FrontCarrierPlate",
+      60,
+      0.0
+    ],
+    [
+      "Input withdrawal",
+      "SunInput",
+      "OutputShaft",
+      60,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle1",
+      0,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle2",
+      0,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle3",
+      0,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "OutputShaft",
+      0,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "CaseShell",
+      0,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle1",
+      1,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle2",
+      1,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle3",
+      1,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "OutputShaft",
+      1,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "CaseShell",
+      1,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle1",
+      5,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle2",
+      5,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle3",
+      5,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "OutputShaft",
+      5,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "CaseShell",
+      5,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle1",
+      6,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle2",
+      6,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle3",
+      6,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "OutputShaft",
+      6,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "CaseShell",
+      6,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle1",
+      15,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle2",
+      15,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle3",
+      15,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "OutputShaft",
+      15,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "CaseShell",
+      15,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle1",
+      30,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle2",
+      30,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "Axle3",
+      30,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "OutputShaft",
+      30,
+      0.0
+    ],
+    [
+      "Bridge withdrawal",
+      "FrontCarrierPlate",
+      "CaseShell",
+      30,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace",
+      "Axle1",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace001",
+      "Axle1",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve",
+      "Axle1",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace",
+      "Axle1",
+      1,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace001",
+      "Axle1",
+      1,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve",
+      "Axle1",
+      1,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace",
+      "Axle1",
+      6,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace001",
+      "Axle1",
+      6,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve",
+      "Axle1",
+      6,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace",
+      "Axle1",
+      12,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace001",
+      "Axle1",
+      12,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve",
+      "Axle1",
+      12,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace",
+      "Axle1",
+      18,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace001",
+      "Axle1",
+      18,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve",
+      "Axle1",
+      18,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace",
+      "Axle1",
+      30,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace001",
+      "Axle1",
+      30,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve",
+      "Axle1",
+      30,
+      0.0
+    ],
+    [
+      "Planet rear-face to carrier",
+      "PlanetWheel1",
+      "OutputShaft",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace002",
+      "Axle2",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace003",
+      "Axle2",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve001",
+      "Axle2",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace002",
+      "Axle2",
+      1,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace003",
+      "Axle2",
+      1,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve001",
+      "Axle2",
+      1,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace002",
+      "Axle2",
+      6,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace003",
+      "Axle2",
+      6,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve001",
+      "Axle2",
+      6,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace002",
+      "Axle2",
+      12,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace003",
+      "Axle2",
+      12,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve001",
+      "Axle2",
+      12,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace002",
+      "Axle2",
+      18,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace003",
+      "Axle2",
+      18,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve001",
+      "Axle2",
+      18,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace002",
+      "Axle2",
+      30,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace003",
+      "Axle2",
+      30,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve001",
+      "Axle2",
+      30,
+      0.0
+    ],
+    [
+      "Planet rear-face to carrier",
+      "PlanetWheel2",
+      "OutputShaft",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace004",
+      "Axle3",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace005",
+      "Axle3",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve002",
+      "Axle3",
+      0,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace004",
+      "Axle3",
+      1,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace005",
+      "Axle3",
+      1,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve002",
+      "Axle3",
+      1,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace004",
+      "Axle3",
+      6,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace005",
+      "Axle3",
+      6,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve002",
+      "Axle3",
+      6,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace004",
+      "Axle3",
+      12,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace005",
+      "Axle3",
+      12,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve002",
+      "Axle3",
+      12,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace004",
+      "Axle3",
+      18,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace005",
+      "Axle3",
+      18,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve002",
+      "Axle3",
+      18,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace004",
+      "Axle3",
+      30,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "PlanetRace005",
+      "Axle3",
+      30,
+      0.0
+    ],
+    [
+      "Bearing assembly slides along axle",
+      "InnerSleeve002",
+      "Axle3",
+      30,
+      0.0
+    ],
+    [
+      "Planet rear-face to carrier",
+      "PlanetWheel3",
+      "OutputShaft",
+      0,
+      0.0
+    ]
+  ],
+  "largest_common_volume_mm3": 0.0,
+  "gear_withdrawal_at_fixed_index_overlap_mm2": 0.0,
+  "planet_to_nearest_post_radial_envelope_gap_mm": 4.399999999999999,
+  "input_sun_to_bridge_radial_gap_mm": 0.998866567981624,
+  "withdrawal_travel_mm": {
+    "cartridge": 60,
+    "bridge": 30,
+    "planets": 30
+  }
+}

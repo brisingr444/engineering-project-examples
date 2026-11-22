@@ -1,0 +1,5 @@
+SynthCrew planetary gearbox reference files
+
+Permission is granted, free of charge, to use, study, copy, modify, and redistribute the original project files and associated documentation, including modified versions, provided that this notice and the attribution notice accompany redistributed copies.
+
+The files are supplied as-is, without warranty of any kind, including suitability for any particular installation or manufacturing process. This permission does not grant rights in third-party software or trademarks. The example is not a load-rated or safety-certified mechanical product.

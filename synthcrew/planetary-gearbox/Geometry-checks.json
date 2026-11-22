@@ -1,0 +1,315 @@
+{
+  "solid_count": 61,
+  "invalid_parts": [],
+  "planet_centers_mm": [
+    [
+      22.5,
+      0.0
+    ],
+    [
+      -11.249999999999995,
+      19.48557158514987
+    ],
+    [
+      -11.25000000000001,
+      -19.485571585149863
+    ]
+  ],
+  "sun_and_ring_center_distances_mm": [
+    22.5,
+    22.499999999999996,
+    22.5
+  ],
+  "index_angles_deg": [
+    0.0,
+    120.0,
+    240.0
+  ],
+  "adjacent_tip_envelope_gaps_mm": [
+    9.969097084006354,
+    9.969097084006354,
+    9.969097084006368
+  ],
+  "radial_tip_root_clearance_mm": {
+    "sun_tip_planet_root": 0.24886656798162932,
+    "planet_tip_sun_root": 0.24897695685331378,
+    "planet_tip_ring_root": 0.24897695685334575,
+    "ring_tip_planet_root": 0.24999999999999822
+  },
+  "mesh_samples": [
+    {
+      "sun_deg": 0.0,
+      "carrier_deg": 0.0,
+      "station": 1,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04708461771049333,
+      "internal_flank_gap_mm": 0.046824158293806664
+    },
+    {
+      "sun_deg": 0.0,
+      "carrier_deg": 0.0,
+      "station": 2,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04708461771049096,
+      "internal_flank_gap_mm": 0.046824158293818544
+    },
+    {
+      "sun_deg": 0.0,
+      "carrier_deg": 0.0,
+      "station": 3,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.0470846177104902,
+      "internal_flank_gap_mm": 0.04682415829383017
+    },
+    {
+      "sun_deg": 3.125,
+      "carrier_deg": 0.625,
+      "station": 1,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04723771822277756,
+      "internal_flank_gap_mm": 0.0467971086751626
+    },
+    {
+      "sun_deg": 3.125,
+      "carrier_deg": 0.625,
+      "station": 2,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04723771822277344,
+      "internal_flank_gap_mm": 0.04679710867518816
+    },
+    {
+      "sun_deg": 3.125,
+      "carrier_deg": 0.625,
+      "station": 3,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04723771822277497,
+      "internal_flank_gap_mm": 0.04679710867520257
+    },
+    {
+      "sun_deg": 6.25,
+      "carrier_deg": 1.25,
+      "station": 1,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.047260227437723346,
+      "internal_flank_gap_mm": 0.046757577109991566
+    },
+    {
+      "sun_deg": 6.25,
+      "carrier_deg": 1.25,
+      "station": 2,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04726022743772427,
+      "internal_flank_gap_mm": 0.04675757711000205
+    },
+    {
+      "sun_deg": 6.25,
+      "carrier_deg": 1.25,
+      "station": 3,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.047260227437727925,
+      "internal_flank_gap_mm": 0.04675757711001189
+    },
+    {
+      "sun_deg": 9.375,
+      "carrier_deg": 1.875,
+      "station": 1,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04701269261111616,
+      "internal_flank_gap_mm": 0.04684889775655223
+    },
+    {
+      "sun_deg": 9.375,
+      "carrier_deg": 1.875,
+      "station": 2,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04701269261111982,
+      "internal_flank_gap_mm": 0.046848897756556276
+    },
+    {
+      "sun_deg": 9.375,
+      "carrier_deg": 1.875,
+      "station": 3,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04701269261112028,
+      "internal_flank_gap_mm": 0.04684889775653894
+    },
+    {
+      "sun_deg": 12.5,
+      "carrier_deg": 2.5,
+      "station": 1,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.0472960701424592,
+      "internal_flank_gap_mm": 0.046735302346635386
+    },
+    {
+      "sun_deg": 12.5,
+      "carrier_deg": 2.5,
+      "station": 2,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04729607014245607,
+      "internal_flank_gap_mm": 0.04673530234664486
+    },
+    {
+      "sun_deg": 12.5,
+      "carrier_deg": 2.5,
+      "station": 3,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.047296070142459665,
+      "internal_flank_gap_mm": 0.04673530234662729
+    },
+    {
+      "sun_deg": 15.625,
+      "carrier_deg": 3.125,
+      "station": 1,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04711266796985185,
+      "internal_flank_gap_mm": 0.04680152472071112
+    },
+    {
+      "sun_deg": 15.625,
+      "carrier_deg": 3.125,
+      "station": 2,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.047112667969846235,
+      "internal_flank_gap_mm": 0.046801524720716754
+    },
+    {
+      "sun_deg": 15.625,
+      "carrier_deg": 3.125,
+      "station": 3,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04711266796984379,
+      "internal_flank_gap_mm": 0.046801524720726975
+    },
+    {
+      "sun_deg": 18.75,
+      "carrier_deg": 3.75,
+      "station": 1,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04702358480993688,
+      "internal_flank_gap_mm": 0.04679337411025321
+    },
+    {
+      "sun_deg": 18.75,
+      "carrier_deg": 3.75,
+      "station": 2,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.047023584809925724,
+      "internal_flank_gap_mm": 0.04679337411026048
+    },
+    {
+      "sun_deg": 18.75,
+      "carrier_deg": 3.75,
+      "station": 3,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04702358480992815,
+      "internal_flank_gap_mm": 0.0467933741102399
+    },
+    {
+      "sun_deg": 21.875,
+      "carrier_deg": 4.375,
+      "station": 1,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04713283522383545,
+      "internal_flank_gap_mm": 0.046861408374780686
+    },
+    {
+      "sun_deg": 21.875,
+      "carrier_deg": 4.375,
+      "station": 2,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04713283522383671,
+      "internal_flank_gap_mm": 0.04686140837477887
+    },
+    {
+      "sun_deg": 21.875,
+      "carrier_deg": 4.375,
+      "station": 3,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04713283522384717,
+      "internal_flank_gap_mm": 0.04686140837479212
+    },
+    {
+      "sun_deg": 25.0,
+      "carrier_deg": 5.0,
+      "station": 1,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.047084617710499384,
+      "internal_flank_gap_mm": 0.04682415829381456
+    },
+    {
+      "sun_deg": 25.0,
+      "carrier_deg": 5.0,
+      "station": 2,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.04708461771048961,
+      "internal_flank_gap_mm": 0.046824158293821846
+    },
+    {
+      "sun_deg": 25.0,
+      "carrier_deg": 5.0,
+      "station": 3,
+      "external_overlap_mm2": 0.0,
+      "internal_overlap_mm2": 0.0,
+      "external_flank_gap_mm": 0.047084617710481114,
+      "internal_flank_gap_mm": 0.0468241582938325
+    }
+  ],
+  "pitch_backlash_mm": {
+    "sun_planet": 0.10048884935249973,
+    "planet_ring": 0.09978035695637619
+  },
+  "diametral_fits_mm": {
+    "ring_seat": 0.06,
+    "input_OD": 0.02,
+    "input_journal": 0.01,
+    "output_OD": 0.02,
+    "output_journal": 0.01,
+    "planet_OD": 0.02,
+    "pin_journal": 0.01,
+    "nose_pin_support": 0.03
+  },
+  "planet_end_gaps_mm": [
+    1.0,
+    0.9999999999999929
+  ],
+  "pin_support_bore_mm": 8.02,
+  "service_sun_plate_radial_gap_mm": 0.998866567981624,
+  "physical_envelope_mm": [
+    104.0,
+    104.00131,
+    111.0
+  ],
+  "axial_contacts_mm": {
+    "ring_shoulder": 3.907985046680551e-14,
+    "front_cover_flange": 0.0,
+    "rear_cover_flange": 0.0,
+    "front_plate_posts": 0.0
+  }
+}

@@ -1,0 +1,14 @@
+VCD info: dumpfile build/contention.vcd opened for output.
+epoch 1 port 0 packets in=41 out=66
+epoch 1 port 1 packets in=72 out=64
+epoch 1 port 2 packets in=41 out=32
+epoch 1 port 3 packets in=40 out=32
+epoch 1 total packets in=194 out=194
+reset flushed beats=2 completed input packets=2
+epoch 2 port 0 packets in=1 out=1
+epoch 2 port 1 packets in=1 out=1
+epoch 2 port 2 packets in=1 out=1
+epoch 2 port 3 packets in=1 out=1
+epoch 2 total packets in=4 out=4
+PASS axis_packet_switch
+tb/tb_axis_packet_switch.sv:203: $finish called at 1390000 (1ps)
